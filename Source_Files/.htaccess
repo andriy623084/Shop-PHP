@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteBase /Zinchenko-shop/Source_Files/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+
+RewriteRule ^(.*)$ index.php
